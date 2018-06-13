@@ -1,7 +1,8 @@
+import 'normalize.css';
 import './style.css';
 
 function component() {
-  var element = document.createElement('div');
+  let element = document.createElement('div');
 
   element.innerHTML = "Hello World leader!!!";
   element.classList.add('hello');

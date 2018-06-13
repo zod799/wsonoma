@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>WS Project | Gerard Gust</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <div class="container-main">
@@ -10,23 +11,27 @@
           <div class="title-main">
             <h1>WS Project</h1>
           </div>
-          <div class="head-links">
-            <div class="signin">Welcome Gerard, <a href="#" title="Sign Out">Sign Out</a></div>
-            <div class="cart">cart - 0</div>
-          </div>
+          <!-- <div class="signin">Welcome Gerard, <a href="#" title="Sign Out">Sign Out</a></div> -->
+          <div class="cart">cart - <span class="qty">0</span></div>
         </div>
-        <nav class="nav-main">
-          <ul>
-            <li><a href="#" title="Link 1">Link 1</a></li>
-            <li><a href="#" title="Link 2">Link 2</a></li>
-            <li><a href="#" title="Link 3">Link 3</a></li>
-            <li><a href="#" title="Sale">Sale</a></li>
-          </ul>
-        </nav>
       </header><!-- /header -->
       <main>
         <div class="container-content">
-          <nav class="nav-side"></nav>
+          <nav class="nav-side">
+            <h2>Shop Categories</h2>
+            <ul>
+              <li>
+                <a href="#" title="Link 1">New</a>
+                <ul class="subcat">
+                  <li class="subcat-item">cat1</li>
+                  <li class="subcat-item">cat2</li>
+                  <li class="subcat-item">all</li>
+                </ul>
+              </li>
+              <li><a href="#" title="Link 2">Bowls</a></li>
+              <li><a href="#" title="Link 3">Plates</a></li>
+            </ul>
+          </nav>
           <section class="content-main">
             <div class="title-section">
               <h2>All New</h2>
@@ -35,7 +40,7 @@
               shop > new > all new
             </div>
             <div class="products">
-              
+              <p>Products Here...</p>
             </div>
           </section>
         </div>
